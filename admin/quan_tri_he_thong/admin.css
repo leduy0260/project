@@ -1,0 +1,199 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.all{
+	width: 1200px;
+	margin: 0 auto;
+}
+.all .navall{
+	width: 100%;
+	height: 60px;
+}
+
+.all .allbody{
+	width: 100%;
+	margin: 0 auto;
+}
+.all .allbody .row{
+	width: 1200px;
+	margin: 0 auto;
+}
+.all .allbody .order{
+	height: 150px;
+	width: 288px;
+	margin-left: 10px;
+	background : #0f0;
+	border-radius: 5px;
+}
+.all .allbody .order .nb,
+.all .allbody .allorder .nb,
+.all .allbody .user .nb,
+.all .allbody .money .nb{
+	margin-left: 120px;
+	margin-top: 30px;
+	font-size: 70px;
+}
+.all .allbody .order .img{
+	float: left;
+}
+.all .allbody .order .img img{
+	margin-top: 10px;
+}
+.all .allbody .order .img .text{
+	font-size: 15px;
+	font-weight: bold;
+
+}
+.all .allbody .allorder{
+	height: 150px;
+	width: 288px;
+	margin-left: 10px;
+	background : #06cf;
+	border-radius: 5px;
+}
+.all .allbody .allorder .img{
+	float: left;
+}
+.all .allbody .allorder .img img{
+	margin-top: 15px;
+}
+.all .allbody .allorder .img .text{
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 5px;	
+}
+.all .allbody .user{
+	height: 150px;
+	width: 288px;
+	margin-left: 10px;
+	background : #ff0;
+	border-radius: 5px;
+}
+.all .allbody .user .img{
+	float: left;
+}
+.all .allbody .user .img img{
+	margin-top: 15px;
+}
+.all .allbody .user .img .text{
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 5px;
+
+}
+.all .allbody .money{
+	height: 150px;
+	width: 288px;
+	background : #3c3;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+.all .allbody .money .img{
+	float: left;
+}
+.all .allbody .money .img img{
+	margin-top: 15px;
+}
+.all .allbody .money .img .text{
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 5px;	
+}
+@media screen and (max-width: 1024px) and (min-width: 769px){
+	.all{
+		width: 1024px;
+	}
+	.all .navall{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.all .navall .navt{
+		width: 100%;
+	}
+	.all .navall .navt .container{
+		width: 100%;
+	}
+	.all .allbody .row{
+		width: 80%;
+		margin-left: 170px;
+	}
+	.all .allbody .row .order,
+	.all .allbody .row .allorder,
+	.all .allbody .row .user,
+	.all .allbody .row .money{
+		width: 40%;
+	}
+	.all .allbody .row .allorder,
+	.all .allbody .row .money{
+		margin-left: 20px;
+	}
+	.all .allbody .row .order,
+	.all .allbody .row .allorder{
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+	.all{
+		width: 768px;
+	}
+	.all .navall{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.all .navall .navt{
+		width: 100%;
+	}
+	.all .navall .navt .container{
+		width: 100%;
+	}
+	.all .allbody .row{
+		width: 80%;
+		margin-left: 88px;
+	}
+	.all .allbody .row .order,
+	.all .allbody .row .allorder,
+	.all .allbody .row .user,
+	.all .allbody .row .money{
+		width: 45%;
+	}
+	.all .allbody .row .allorder,
+	.all .allbody .row .money{
+		margin-left: 20px;
+	}
+	.all .allbody .row .order,
+	.all .allbody .row .allorder{
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+}
+@media screen and (min-width: 425px) and (max-width: 767px){
+	.all{
+		width: 425px;
+	}
+	.all .navall{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.all .navall .navt{
+		width: 100%;
+	}
+	.all .navall .navt .container{
+		width: 100%;
+	}
+	.all .navall .navt .container .collapse-in{
+		margin-bottom: 200px;
+	}
+	.all .allbody .row{
+		width: 80%;
+		margin-left: 47px;
+	}
+	.all .allbody .row .order,
+	.all .allbody .row .allorder,
+	.all .allbody .row .user,
+	.all .allbody .row .money{
+		width: 90%;
+		margin-bottom: 10px;
+	}
+}
